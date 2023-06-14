@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import { useEffect } from "react";
 import AOS from "aos";
-import { ProjectData, allSkills } from "../components/Data";
+import {ProjectData,allSkills} from "../components/Data";
 import Heads from "../components/Heads";
 
 const IndexPage = () => {
@@ -16,41 +16,28 @@ const IndexPage = () => {
     AOS.refresh();
   }, []);
 
+
+
   return (
+    
     <Layout>
+
       <Heads title="Home" />
 
       <Container fluid className="index_main">
         <div className="main row m-auto p-3 ">
-          <div className="profile col-lg-5 col-12 order-lg-1 order-2 b"></div>
+          <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b" >
+            </div>
 
-          <div
-            className=" textbody col-lg-7 col-12 order-lg-2 order-1"
-            data-aos="fade-up"
-          >
+          <div className=" textbody col-lg-7 col-12 order-lg-2 order-1" data-aos="fade-up" >
             <div className="profileText">
               <p style={{ fontSize: "2.5rem" }}>Hello,This is</p>
               <p style={{ fontSize: "2.5rem" }}>Irayya Hiremath</p>
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
-                {/* I am a <strong>Software Engineer</strong>  I love to design and make new web experiences for people.
+              {/* I am a <strong>Software Engineer</strong>  I love to design and make new web experiences for people.
                 <br />
                 I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfil organisational goals. */}
-                "Welcome to my website! I am a passionate Software Engineer who
-                thrives on designing and creating exceptional web experiences
-                for users. With a strong foundation in HTML, CSS, and
-                JavaScript, I specialize in utilizing cutting-edge technologies
-                like React.js, Next.js, Gatsby, and Material UI to bring
-                innovative ideas to life. I have hands-on experience working
-                with frameworks and libraries such as React Bootstrap,
-                Bootstrap, and Tailwind CSS, enabling me to build responsive and
-                visually stunning websites. Additionally, I have integrated
-                powerful features like Google Maps API, Socket.io, and Crypto.js
-                into my projects to enhance functionality and security. With an
-                insatiable hunger for learning, I continuously seek
-                opportunities to expand my skill set and apply my knowledge to
-                achieve personal growth and contribute to organizational goals.
-                Let s collaborate and create remarkable web experiences
-                together!"
+                "Welcome to my website! I'm a passionate Software Engineer who thrives on designing and creating exceptional web experiences for users. With a strong foundation in HTML, CSS, and JavaScript, I specialize in utilizing cutting-edge technologies like React.js, Next.js, Gatsby, and Material UI to bring innovative ideas to life. I have hands-on experience working with frameworks and libraries such as React Bootstrap, Bootstrap, and Tailwind CSS, enabling me to build responsive and visually stunning websites. Additionally, I have integrated powerful features like Google Maps API, Socket.io, and Crypto.js into my projects to enhance functionality and security. With an insatiable hunger for learning, I continuously seek opportunities to expand my skill set and apply my knowledge to achieve personal growth and contribute to organizational goals. Let's collaborate and create remarkable web experiences together!"
               </p>
 
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
@@ -58,9 +45,11 @@ const IndexPage = () => {
               </p>
 
               <div className="skillschart d-flex justify-content-spacebetween flex-wrap">
-                {allSkills.map((elm, ind) => {
-                  return <h6 key={ind}>{elm}</h6>;
+                {allSkills.map((elm,ind)=>{
+                return (<h6 key={ind}>{elm}</h6>)
+                  
                 })}
+                
               </div>
             </div>
 
@@ -72,6 +61,7 @@ const IndexPage = () => {
                 <Link href="/about"> Readmore </Link>
               </Button>
             </div>
+
           </div>
         </div>
       </Container>
@@ -84,25 +74,27 @@ const IndexPage = () => {
         </h1>
 
         <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
-          {ProjectData.map((Data, i) => {
+
+          { ProjectData.map((Data, i) => {
             return (
-              <Card key={i} className="col-lg-4 p-4 col-6">
-                <Card.Img src={Data.img} alt="project images" />
+              
+        
+              <Card key={i} className="col-lg-4 p-4 col-6"  >
+                <Card.Img src={Data.img} alt="project images"  />
                 <Card.Body>
                   <Card.Title>{Data.title}</Card.Title>
                   <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
+
                     {Data.tech.map((d, i) => {
-                      return (
-                        <p key={i} className="p_technolgies">
-                          {d}
-                        </p>
-                      );
+                      return <p key={i} className="p_technolgies">{d}</p>;
                     })}
+
                   </Card.Text>
                 </Card.Body>
               </Card>
             );
           })}
+
         </div>
       </div>
 
