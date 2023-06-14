@@ -1,5 +1,35 @@
 const ProjectData = [
   {
+    img: "/images/yellowdays1.png",
+    description: `I developed the client side of a project using
+    Next.js, Tailwind CSS, Headless UI, ReactDate Picker, Google Maps API, and Socket.io
+    . The project aimed to create a platform where providers could offer activities for customers to book via a mobile application. Iimplemented features such as booking status tracking and chat functionality toenhance communication between providers and customers.`,
+    title: "YellowDays Version-1",
+    tech: ["Next js", "Tailwind Css", "Headless UI", "Google Maps API",  " React Date Picker","Socket.io"],
+    link:`https:web.yellowdays.com`
+  },{
+    img: "/images/yellowdays2.png",
+    description: `In the newer version of the application, I utilized
+    Next js, Material UI,
+    and
+    React FullCalendar
+    along with
+    React Date Picker, Google Maps API
+    , and
+    Socket.io
+    .Providing a more streamlined user interface. Additionally, I implemented an admin access feature to grant authorized users specific administrative functionalities, enhancing overall control and management of the application.`,
+    title: "YellowDays Version-2",
+    tech: ["Next js", "Material UI", "Google Maps API",  " React Date Picker","Socket.io"],
+    link:`http:web.staging.yellowdays.com:3000/login`
+  }
+  ,
+  {
+    img: "/images/col.png",
+    description: `Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
+    title: "College Website",
+    tech: ["Gatsby js", "React Bootstrap"],
+    link:`https://kssscollege.com/`
+  },{
     img: "/images/ware.jpg",
     description: `Worked on the client-side aspect of this project and built with modern technologies like React.js and React-Bootstrap and done hybrid application for mobile, using PWA technology with next js. This application manages all the warehouse activiteis and makes warehouse management an easier task.it keeps track of all purchases and sales and its main feature is to keep track of all orders with all details at every step of the order journey.`,
     title: "Ware House Management",
@@ -13,7 +43,7 @@ const ProjectData = [
       This application carried out almost all the aspects of inventory management
       and invoicing and reports are similar to QuickBooks.`,
     title: "Retail Pharmacy Management System",
-    tech: ["React js", "React Bootstrap", "Next Js", "Node js"],
+    tech: ["React js", "React Bootstrap", "Next Js", ],
   },
   {
     img: "/images/hospital.jpg",
@@ -23,7 +53,7 @@ const ProjectData = [
         nursing home from admitting the patients to managing paperless
         prescriptions and test reports and billing`,
     title: "Hospital Management System",
-    tech: ["React js", "Ant D", "Next Js", "Node js"],
+    tech: ["React js", "Ant D", "Next Js", ],
   },
   {
     img: "/images/ecom.jpeg",
@@ -31,14 +61,9 @@ const ProjectData = [
         products to the doorsteps Worked on the admin side user interface layout
         modifications`,
     title: "Grocery e-commerce application",
-    tech: ["Angular", "PHP", "Bootstrap", "Node js", "AWS"],
+    tech: ["Angular", "PHP", "Bootstrap",  "AWS"],
   },
-  {
-    img: "/images/col.png",
-    description: `Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
-    title: "College Website",
-    tech: ["Gatsby js", "React Bootstrap"],
-  },
+  
   {
     img: "/images/company.png",
     description: `This is a static website that includes a company overview and all information
@@ -50,7 +75,9 @@ const ProjectData = [
     img: "/images/git.png",
     description: `You can find the some of my hobby projects directly on my github.`,
     title: "Some Of My Hobby projects",
+
     tech: ["Github"],
+    link:'https://github.com/Irayya-Hiremath'
   },
 ];
 const allSkills = [

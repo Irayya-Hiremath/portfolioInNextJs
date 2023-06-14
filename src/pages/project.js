@@ -6,8 +6,7 @@ import {ProjectData} from "../components/Data";
 // import{FaSistrix} from "@react-icons/all-files/fa/FaSistrix";
 import AOS from "aos";
 import Heads from "../components/Heads";
-import Image from "next/image";
-
+import Link from "next/link";
 
 
 
@@ -55,14 +54,22 @@ function Project() {
                 {/* <Image width='300' height='300'  src={data.img}/> */}
                 <Card.Body className="my-3 w-100">
                   <Card.Title className="text-bold">{data.title}</Card.Title>
-                  <Card.Text className="text-justify">
+                  {/* <Card.Text className="text-justify">
                     {data.description}
-                  </Card.Text>
+                  </Card.Text> */}
                   <Card.Text className="d-flex flex-wrap">
                     {data.tech.map((d, index) => {
                       return <small key={index} className="p_technolgies">{d}</small>;
                     })}
+                    
                   </Card.Text>
+{data.link?
+<div className="menu-items">
+
+<Link  className=' text-decoration-none p_technolgies  ' href={data.link}>{data.link}</Link> </div>:null}
+                  
+
+
                 </Card.Body>
               </Card>
             );

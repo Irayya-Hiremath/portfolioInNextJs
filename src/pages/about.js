@@ -33,7 +33,7 @@ function About() {
               <p style={{ fontSize: "2rem" }}>Let me introduce myself</p>
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
                 I am Irayya Hiremath, currently working as a{" "}
-                <strong>Software Engineer</strong>. I am a Mechanical
+                <strong>Software Engineer</strong> at Trellisys.Net Pvt Ltd. I am a Mechanical
                 Engineering graduate from Hulkoti, Gadag. I started as a{" "}
                 <strong>Design Engineer</strong> at BLH H-Tech PVT LTD, Hubbali,
                 in an IoT team for the SPOUT project. I was in charge of
@@ -57,7 +57,7 @@ function About() {
             </div>
 
             <div className="button_box p-3">
-              <a href="./static/IrayyaHiremath_cv_2022.pdf">
+              <a href="./images//IrayyaHiremath_cv_2022.pdf">
                 {" "}
                 <Button data-aos="flip-right" className="button">
                   {" "}
