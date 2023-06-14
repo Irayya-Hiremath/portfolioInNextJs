@@ -1,0 +1,134 @@
+.index_main{
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+
+}
+
+.profile{
+    background-image: url('../images/BGIMG3-969eefb330f67a07864a8b2cfb3e2f7c.png');
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: 30%;
+    padding: 5rem !important;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227));
+   
+
+}
+.profileText{
+    padding-top: 15%;
+    color: var(--gray-1);
+    background-color: var(--dark);   
+}
+.textbody{
+    background-color: var(--dark);
+
+
+}
+
+.button{
+    background-color: var(--gray-1) !important;
+    color: var(--deep-dark) !important;
+    border: none !important;
+    font-size: large !important;
+    margin-right: 2rem;
+    border-radius: .5rem !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+    text-decoration: none !important;
+
+}
+.button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  Button a{
+      text-decoration: none !important;
+      color: var(--deep-dark) !important;
+
+  }
+  Button:hover {
+    transform: scale(1.1) !important;
+
+    }
+    .project_section{
+    color: var(--gray-1);
+
+    }
+  
+
+    h6{
+        width: auto !important;
+        font-size: 1.5rem !important;
+        background-color:var(--deep-dark);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-right:1rem;
+        color: var(--gray-1);
+    }
+    h6:hover{
+       color:var(--deep-dark);
+       background-color: var(--gray-1);
+
+    }
+    .card-img{
+        height: 23rem !important;
+    }
+    .card-img{
+        border-radius: 1rem 1rem 0rem 0rem !important;
+        border: 3px solid var(--gray-2) !important;
+        border-bottom: none !important;
+    }
+    .p_technolgies{
+        background-color:var(--dark);
+        padding: .5rem !important;
+        border-radius: 1rem;
+        color: var(--gray-1);
+        font-size: 1.2rem !important;
+        margin: .2rem !important;
+    }
+    .skillschart{
+        width: 75% !important;
+    }
+   
+  /* ************** Mobile ****************** */
+@media (max-width: 900px) {
+    html{
+        font-size: 40%;
+    }
+    .index_main{
+        margin-top: 5px!important;
+    }
+    .profile{
+        background-image: url('../images/BGIMG3-969eefb330f67a07864a8b2cfb3e2f7c.png');
+        background-size:contain;
+        background-position:left;
+        opacity:60%;
+        height: 400px;
+        width: 100% !important;
+
+
+    }
+    .profileText{
+        color: var(--gray-1);
+        background-color: var(--dark); 
+         padding-top:2px;
+
+
+    }
+    .textbody{
+        background-color: var(--dark);
+        height:42vh !important;
+   
+    
+    }
+    .project_box{
+        width: 100% !important;
+    }
+    .skillschart{
+        width: 100% !important;
+    }
+    
+}
+/* ************** Mobile ****************** */

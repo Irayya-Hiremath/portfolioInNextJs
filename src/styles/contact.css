@@ -1,0 +1,128 @@
+.contact_page{
+    color: var(--gray-1);
+
+}
+.c_heading{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+.contact_left_side{
+    width:90%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color:var(--deep-dark);
+    font-size: 1.5rem;
+    margin: 3rem;
+
+}
+.result{
+    color: var(--gray-1) !important;
+    font-size: 1.5rem;
+}
+
+
+.c_form .form-control {
+    margin: auto;
+    width:90% !important;
+    padding: 1rem !important;
+    border-radius: 1rem !important;
+    background-color:var(--deep-dark) !important;
+    font-size: 2rem !important;
+    border: none !important;
+    color:var(--white) !important;
+}
+.c_form .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:var(--deep-dark) !important;
+    color:var(--white) !important;
+  }
+.form-label {
+    margin-left: 3rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 2rem !important;
+
+    font-size: 1.5rem !important;
+
+}
+.map{
+    background-image: url('../images/map-02-bfda2343fde22a1e1dbe971d9069763d.jpeg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+
+    }
+    .icons{
+        background-color: var(--gray-2) !important;
+        width: 4.5rem !important;
+        height:4.5rem !important;
+        padding: 1rem !important;
+        margin-right: 1rem !important;
+        border-radius: 2rem !important;
+        color: white !important;
+
+    }
+    .addbox{
+        text-align: center !important;
+        width:12% !important;
+        height: 30% !important;
+        border: 2px solid white;
+        color: var(--gray-1) !important;
+        background: var(--deep-dark);
+        border-radius: 2rem !important;
+        border: 3px solid var(--gray-2) !important;
+        margin-left: 44% !important;
+        margin-top: 2% !important;
+
+    }
+    .mapicon{
+        width: 6rem !important;
+        height:6rem !important;
+        padding: 1rem !important;
+        margin-right: 1rem !important;
+        border-radius: 2rem !important;
+        color: rgb(228, 8, 8) !important;
+        margin-left: 47% !important;
+        margin-top: 11% !important;
+    }
+    .addbox a{
+        color: var(--gray-1) !important;
+
+    }
+    @media (max-width: 900px) {
+        html{
+            font-size: 40%;
+        }.map{
+            background-image: url('../images/map-02-bfda2343fde22a1e1dbe971d9069763d.jpeg');
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+        
+            }
+            .addbox{
+                text-align: center !important;
+                width:30% !important;
+                height: 30% !important;
+                border: 2px solid white;
+                color: var(--gray-1) !important;
+                background: var(--deep-dark);
+                border-radius: 2rem !important;
+                border: 1px solid var(--gray-2) !important;
+                margin-left: 35% !important;
+                margin-top: 2% !important;
+            }
+            .mapicon{
+                width: 6rem !important;
+                height:6rem !important;
+                padding: 1rem !important;
+                margin-right: 1rem !important;
+                border-radius: 2rem !important;
+                color: rgb(228, 8, 8) !important;
+                margin-left: 45% !important;
+                margin-top: 20% !important;
+            }
+
+    }
+

@@ -1,0 +1,110 @@
+.p_heading{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+
+}.project_page{
+    color: var(--gray-1);
+
+}
+.search_bar{
+    width: 25% !important;
+    margin-top: 5rem !important;
+    margin-left: 13% !important;
+}
+.searchIcon{
+    margin-left: 1rem!important;
+    width: 3rem !important;
+    height:3.5rem !important;
+    margin: auto !important;
+}
+.input-group{
+    background-color:var(--white) !important;
+    border-radius: 1rem !important;
+
+}
+.search_bar .form-control {
+    padding: .5rem !important;
+    border-radius: 1rem !important;
+    color:var(--deep-dark) !important;
+    font-size: 1.5rem !important;
+    border: none !important;
+    background-color:var(--white) !important;
+}
+.search_bar .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:var(--white) !important;
+   
+  }
+  .srch_button{
+    background-color:transparent !important;
+
+  }
+  .srch_button:hover{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+/* *********************card**************** */
+.project_box{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    width: 75% !important;
+    margin-top: 3rem !important;
+    margin-left: 12.5% !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--dark) !important;
+    background-clip: border-box;
+    border: none !important;
+    color: var(--gray-1) !important;
+    
+
+}
+.card-body{
+    border-radius: 1rem !important;
+    background-color: var(--deep-dark) !important;
+    color: var(--gray-1) !important;
+
+
+}
+.card_img{
+    border-radius: 1rem !important;
+    border: 3px solid var(--gray-2) !important;
+    object-fit: cover !important;
+    height: 30rem !important;
+
+
+}
+.card-title{
+    font-weight: bold !important;
+}
+@media (max-width: 900px) {
+    html{
+        font-size: 40%;
+    }
+
+    .project_box{
+        display: flex !important;
+        justify-content: space-evenly !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+        margin:auto !important;
+    }
+    .search_bar{
+        width: 50% !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        margin-left: 1% !important;
+        font-size: 1.5rem !important;
+        padding: 1rem !important;
+    }
+}
