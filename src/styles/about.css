@@ -1,54 +1,48 @@
 /* about education ****************************************************** */
-.aboutsection{
-    color: var(--gray-1);
-
+.aboutsection {
+  color: var(--gray-1);
 }
 
-h1{
-    font-weight: bold !important;
+h1 {
+  font-weight: bold !important;
 }
-h6{
-    width: auto !important;
-    font-size: 1.5rem !important;
-    background-color:var(--deep-dark);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right:1rem;
-
+h6 {
+  width: auto !important;
+  font-size: 1.5rem !important;
+  background-color: var(--deep-dark);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
 }
 
-
-.read_about{
-    background-image: url('../images/veeru-6a00d7d00e048a394fa28895adfacd40.jpeg');
-    background-size:contain;
-    background-repeat:space;
-    background-position: center;
-    opacity:60%;
+.read_about {
+  background-image: url("../images/veeru-6a00d7d00e048a394fa28895adfacd40.jpeg");
+  background-size: contain;
+  background-repeat: space;
+  background-position: center;
+  opacity: 60%;
 }
-.aboutText{
-    padding-top: 1%;
+.aboutText {
+  padding-top: 1%;
 
-    color: var(--gray-1);
-    background-color: var(--dark);   
+  color: var(--gray-1);
+  background-color: var(--dark);
 }
 
 @media (max-width: 900px) {
-    html{
-        font-size: 40%;
-    }
-    .read_about{
-        background-image: url('../images/veeru-6a00d7d00e048a394fa28895adfacd40.jpeg');
-        background-size:cover;
-        background-position:top;
-        opacity:60%;
-        height: 400px;
-        width: 100% !important;
-        margin-top: 1rem !important;
-             
-    }
-    .aboutsection{
-        width: 100%;
-    }
-
+  html {
+    font-size: 40%;
+  }
+  .read_about {
+    background-image: url("../images/veeru-6a00d7d00e048a394fa28895adfacd40.jpeg");
+    background-size: cover;
+    background-position: top;
+    opacity: 60%;
+    height: 400px;
+    width: 100% !important;
+    margin-top: 1rem !important;
+  }
+  .aboutsection {
+    width: 100%;
+  }
 }
-

@@ -13,7 +13,7 @@ import Heads from "../components/Heads";
 
 const Result =() =>{
   return(
-  <p className='result'>Your Message Has Been Sent Successfully <br />
+  <p className='result '>Your Message Has Been Sent Successfully <br />
   I will Contact You Soon </p>
   );
 };

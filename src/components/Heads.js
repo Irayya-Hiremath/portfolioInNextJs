@@ -1,32 +1,36 @@
-import React from 'react';
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 
 function Heads({ title }) {
   return (
     <Head>
       <title>{title} | Irayya Hiremath</title>
+      <meta name="description" content="Irayya Hiremath " />
       <meta
         name="description"
-        content="Irayya Hiremath "
-      />
-      <meta name="description" content="Front-end Development
+        content="Front-end Development
 React.js Development
 Next.js Development
 HTML5
 CSS3
 Responsive Web Design
-User Interface (UI) Development
 Component-Based Development
 Web Application Development
 Single-Page Applications (SPA)
 CSS Frameworks
 Tailwind CSS
 Material UI
-UI/UX Design
-Web Accessibility" />
-<link name="Irayya hiremath" content="Front-end developer skilled in React.js, Next.js, HTML, CSS, Tailwind CSS, and Material UI."/>
-<link name="Irayya" content="Front-end development, React.js, Next.js, HTML, CSS, Tailwind CSS, Material UI"/>
-<link name="Irayya Hiremath" content="irayya hiremath"/>
+"
+      />
+      <link
+        name="Irayya hiremath"
+        content="Front-end developer skilled in React.js, Next.js, HTML, CSS, Tailwind CSS, and Material UI."
+      />
+      <link
+        name="Irayya"
+        content="Front-end development, React.js, Next.js, HTML, CSS, Tailwind CSS, Material UI"
+      />
+      <link name="Irayya Hiremath" content="irayya hiremath" />
       <link
         rel="icon"
         type="image/png"
@@ -38,4 +42,3 @@ Web Accessibility" />
 }
 
 export default Heads;
-

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import { Card,InputGroup,FormControl} from "react-bootstrap";
-import ProjectData from "../components/Data";
+import {ProjectData} from "../components/Data";
 // import{FaSistrix} from "@react-icons/all-files/fa/FaSistrix";
 import AOS from "aos";
 import Heads from "../components/Heads";
@@ -51,7 +51,7 @@ function Project() {
           {ProjectData.filter((p)=>p.title[0].toUpperCase().includes(search)).map((data, i) => {
             return (
               <Card key={i} className="col-lg-4 col-6 my-3">
-                <Card.Img src={data.img} />
+                <Card.Img src={data.img} alt="project images" />
                 {/* <Image width='300' height='300'  src={data.img}/> */}
                 <Card.Body className="my-3 w-100">
                   <Card.Title className="text-bold">{data.title}</Card.Title>

@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import { useEffect } from "react";
 import AOS from "aos";
-import ProjectData from "../components/Data";
+import {ProjectData,allSkills} from "../components/Data";
 import Heads from "../components/Heads";
 
 const IndexPage = () => {
@@ -26,7 +26,8 @@ const IndexPage = () => {
 
       <Container fluid className="index_main">
         <div className="main row m-auto p-3 ">
-          <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
+          <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b" >
+            </div>
 
           <div className=" textbody col-lg-7 col-12 order-lg-2 order-1" data-aos="fade-up" >
             <div className="profileText">
@@ -43,18 +44,11 @@ const IndexPage = () => {
               </p>
 
               <div className="skillschart d-flex justify-content-spacebetween flex-wrap">
-                <h6>HTML</h6>
-                <h6>CSS</h6>
-                <h6>JavaScript</h6>
-                <h6>React JS</h6>
-                <h6>GatsBy</h6>
-                <h6>React Bootstrap</h6>
-                <h6>Bootstrap</h6>
-                <h6>Tailwind css</h6>
-                <h6>Ant D</h6>
-                <h6>Next JS</h6>
-                <h6>AWS</h6>
-                <h6>PWA</h6>
+                {allSkills.map((elm,ind)=>{
+                return (<h6 key={ind}>{elm}</h6>)
+                  
+                })}
+                
               </div>
             </div>
 
@@ -82,8 +76,10 @@ const IndexPage = () => {
 
           { ProjectData.map((Data, i) => {
             return (
+              
+        
               <Card key={i} className="col-lg-4 p-4 col-6"  >
-                <Card.Img src={Data.img} />
+                <Card.Img src={Data.img} alt="project images"  />
                 <Card.Body>
                   <Card.Title>{Data.title}</Card.Title>
                   <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
