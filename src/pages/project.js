@@ -50,7 +50,7 @@ function Project() {
           
           {ProjectData.filter((p)=>p.title[0].toUpperCase().includes(search)).map((data, i) => {
             return (
-              <Card className="col-lg-4 col-6 my-3">
+              <Card key={i} className="col-lg-4 col-6 my-3">
                 <Card.Img src={data.img} />
                 {/* <Image width='300' height='300'  src={data.img}/> */}
                 <Card.Body className="my-3 w-100">
@@ -59,8 +59,8 @@ function Project() {
                     {data.description}
                   </Card.Text>
                   <Card.Text className="d-flex flex-wrap">
-                    {data.tech.map((d, i) => {
-                      return <small className="p_technolgies">{d}</small>;
+                    {data.tech.map((d, index) => {
+                      return <small key={index} className="p_technolgies">{d}</small>;
                     })}
                   </Card.Text>
                 </Card.Body>

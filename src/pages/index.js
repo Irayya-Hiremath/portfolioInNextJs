@@ -82,14 +82,14 @@ const IndexPage = () => {
 
           { ProjectData.map((Data, i) => {
             return (
-              <Card className="col-lg-4 p-4 col-6"  >
+              <Card key={i} className="col-lg-4 p-4 col-6"  >
                 <Card.Img src={Data.img} />
                 <Card.Body>
                   <Card.Title>{Data.title}</Card.Title>
                   <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
 
                     {Data.tech.map((d, i) => {
-                      return <p className="p_technolgies">{d}</p>;
+                      return <p key={i} className="p_technolgies">{d}</p>;
                     })}
 
                   </Card.Text>
