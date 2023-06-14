@@ -11,7 +11,7 @@ function Footer() {
             <h3 className="footerHeader mb-3">Irayya Hiremath</h3>
             <div>
               <div className="footerContact mb-5 justify">
-                I'm a Software Engineer from Hubbali, Karnataka, specializing in
+                I am a Software Engineer from Hubbali, Karnataka, specializing in
                 creating websites with unique designs and excellent performance.
               </div>
             </div>
