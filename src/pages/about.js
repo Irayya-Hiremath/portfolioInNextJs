@@ -57,14 +57,14 @@ function About() {
             </div>
 
             <div className="button_box p-3">
-              <a href="./images//IrayyaHiremath_cv_2022.pdf">
+              <a target="blank" href="./images/React_js_Developer_3Year_Experiance2023.pdf">
                 {" "}
                 <Button data-aos="flip-right" className="button">
                   {" "}
                   Download CV
                 </Button>{" "}
               </a>
-              <a href="https://github.com/Irayya-Hiremath" target="blank">
+              <a  href="https://github.com/Irayya-Hiremath" target="blank">
                 {" "}
                 <Button data-aos="flip-right" className="button">
                   {" "}
