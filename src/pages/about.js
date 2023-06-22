@@ -57,7 +57,8 @@ function About() {
             </div>
 
             <div className="button_box p-3">
-              <a target="blank" href="./images/React_js_Developer_3Year_Experiance2023.pdf">
+              <a target="blank" href="./images/Reactjs_Developer_3Year_Experiance2023.pdf">
+              
                 {" "}
                 <Button data-aos="flip-right" className="button">
                   {" "}
