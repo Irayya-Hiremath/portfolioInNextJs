@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 import { useEffect } from "react";
 import Heads from "../components/Heads";
 import {
-  experianceData,
+  experienceData,
   frameWorks,
   webTechnologies,
   tools,
@@ -116,7 +116,7 @@ function About() {
         <div className="educatioinSection mt-5 ">
           <h1>EXPERIENCES</h1>
           <div className="education mt-5 row">
-            {experianceData.map((elm, ind) => {
+            {experienceData.map((elm, ind) => {
               return (
                 <>
                   <div key={ind} className="col-lg-3 col-6 mb-3">

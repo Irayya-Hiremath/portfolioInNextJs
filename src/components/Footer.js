@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { Container } from "react-bootstrap";
+import { navLinks } from "./Data";
+
 
 function Footer() {
   return (
@@ -12,7 +14,7 @@ function Footer() {
             <div>
               <div className="footerContact mb-5 justify">
                 I am a Software Engineer from Hubbali, Karnataka, specializing in
-                creating websites with unique designs and excellent performance.
+                creating web applications  with unique designs and excellent performance.
               </div>
             </div>
           </div>
@@ -23,26 +25,12 @@ function Footer() {
               <span className="halfBorder pb-3">Useful Links</span>
             </h3>
             <ul className="list-unstyled px-5">
-              <li>
-                <Link className="footerLink" href="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className="footerLink" href="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link className="footerLink" href="/project">
-                  Project
-                </Link>
-              </li>
-              <li>
-                <Link className="footerLink" href="/contact">
-                  Contact
-                </Link>
-              </li>
+            {navLinks.map((elm,ind)=>{
+              return(
+              <li key={ind}><Link  className='footerLink' href={elm.path}>{elm.link}</Link></li>
+              )
+            })}
+              
             </ul>
           </div>
 

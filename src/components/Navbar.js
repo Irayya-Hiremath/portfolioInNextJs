@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from "next/link";
+import { navLinks } from "./Data";
+
 
 
 
@@ -15,11 +17,12 @@ function Navmenu() {
               <span className="line line3"></span>
           </div>
           <ul className="menu-items">
-              <li><Link  className='navlink' href='/'>HOME</Link></li>
-              <li><Link  className='navlink' href='/about'>ABOUT</Link></li>
-              <li><Link  className='navlink' href='/project'>PROJECT</Link></li>
-              <li><Link  className='navlink' href='/contact'>CONTACT</Link></li>
-            
+            {navLinks.map((elm,ind)=>{
+              return(
+              <li key={ind}><Link  className='navlink' href={elm.path}>{elm.link.toUpperCase()}</Link></li>
+              )
+            })}
+              
           </ul>
           <p className="logo"></p>
       </div>

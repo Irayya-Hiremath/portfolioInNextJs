@@ -27,7 +27,7 @@ const ProjectData = [
     img: "/images/col.png",
     description: `Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
     title: "College Website",
-    tech: ["Gatsby js", "React Bootstrap"],
+    tech: ["Gatsby js", "React Bootstrap","AOS"],
     link:`https://kssscollege.com/`
   },{
     img: "/images/ware.jpg",
@@ -99,6 +99,7 @@ const allSkills = [
   "AWS",
   "PWA",
   "Post Man",
+  'Parcel js'
 ];
 const webTechnologies = ["HTML", "CSS", "JavaScript"];
 const frameWorks = [
@@ -117,7 +118,7 @@ const frameWorks = [
   "React Date picker"
 ];
 const tools = ["AWS", "PWA", "Post Man", "Git", "My SQL"];
-const experianceData=[
+const experienceData=[
   {
     companyName:'Front-End Developer at Trellisys.Net Pvt Ltd',year:'2022-Present'
   },{
@@ -129,5 +130,6 @@ const experianceData=[
   companyName:'Design Engineer at BLH Hi-Tech Pvt Ltd',year:'2018-2019'
 },
 ]
+const navLinks=[{path:'/',link:'Home'},{path:'/about',link:'About'},{path:'/project',link:'Project'},{path:'/contact',link:'Contact'}]
 
-export { ProjectData, allSkills, webTechnologies, frameWorks, tools,experianceData };
+export { ProjectData, allSkills, webTechnologies, frameWorks, tools, experienceData ,navLinks};
