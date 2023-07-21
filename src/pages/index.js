@@ -76,29 +76,7 @@ const IndexPage = () => {
         </h1>
         <ProjectCard ProjectData={ProjectData}/>
 
-        {/* <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
-
-          { ProjectData.map((Data, i) => {
-            return (
-              
-        
-              <Card key={i} className="col-lg-4 p-4 col-6"  >
-                <Card.Img src={Data.img} alt="project images"  />
-                <Card.Body>
-                  <Card.Title>{Data.title}</Card.Title>
-                  <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-
-                    {Data.tech.map((d, i) => {
-                      return <p key={i} className="p_technolgies">{d}</p>;
-                    })}
-
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            );
-          })}
-
-        </div> */}
+       
       </div>
 
       <Footer />

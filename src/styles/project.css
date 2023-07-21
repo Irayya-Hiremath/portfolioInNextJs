@@ -65,7 +65,6 @@
 }
 
 
-/* Assuming you have a styles.css file or equivalent */
 .card-container {
   transform-style: preserve-3d;
   transition: transform 0.5s;
@@ -89,4 +88,3 @@
   transform: rotateY(180deg);
 }
 
-/* Add other styling as needed for your specific layout */
