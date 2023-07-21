@@ -6,6 +6,7 @@ import { ProjectData } from "../components/Data";
 import AOS from "aos";
 import Heads from "../components/Heads";
 import Link from "next/link";
+import ProjectCard from '../components/ProjectCard'
 
 function Project() {
   const [search, setSearch] = useState("");
@@ -32,16 +33,17 @@ function Project() {
         <h1 data-aos="flip-up" className="text-center p_heading">
           PROJECTS
         </h1>
-
-        <div className="row project_box">
-          {ProjectData.filter((p) =>
-            p.title[0].toUpperCase().includes(search)
-          ).map((data, i) => {
+<ProjectCard ProjectData={ProjectData}/>
+        {/* <div className="row project_box">
+          {ProjectData.map((data, i) => {
             return (
-              <Card key={i} className="col-lg-4 col-6 my-3">
-                <Card.Img src={data.img} alt="project images" />
-                <Card.Body className="my-3 w-100">
+              <Card key={i} className="col-lg-4 col-6 my-3 ">
+                <div className="card-container w-100 h-100 position-relative  ">
+                
+                <Card.Img src={data.img} alt="project images card-front position-absolute top-0 "/>
+                <Card.Body className="card-back position-absolute top-0 ">
                   <Card.Title className="text-bold">{data.title}</Card.Title>
+                  <Card.Title className="text-bold">Tech stack used</Card.Title>
 
                   <Card.Text className="d-flex flex-wrap">
                     {data.tech.map((d, index) => {
@@ -53,21 +55,22 @@ function Project() {
                     })}
                   </Card.Text>
                   {data.link ? (
-                    <div className="menu-items">
-                      <Link
-                        className=" text-decoration-none p_technolgies  "
-                        href={data.link}
-                        target="blank"
-                      >
-                        {data.link}
-                      </Link>{" "}
-                    </div>
+                  <><Card.Title className="text-bold">Live link</Card.Title><div className="menu-items">
+                        <Link
+                          className=" text-decoration-none p_technolgies  "
+                          href={data.link}
+                          target="blank"
+                        >
+                          {data.link}
+                        </Link>{" "}
+                      </div></>
                   ) : null}
                 </Card.Body>
+                </div>
               </Card>
             );
           })}
-        </div>
+        </div> */}
       </div>
       <Footer />
     </Layout>

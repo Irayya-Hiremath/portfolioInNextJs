@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import {ProjectData,allSkills} from "../components/Data";
 import Heads from "../components/Heads";
+import ProjectCard from '../components/ProjectCard'
+
 
 const IndexPage = () => {
   useEffect(() => {
@@ -72,8 +74,9 @@ const IndexPage = () => {
         <h1 className="text-center mb-4" style={{ fontSize: "4rem" }}>
           PROJECTS
         </h1>
+        <ProjectCard ProjectData={ProjectData}/>
 
-        <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
+        {/* <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
 
           { ProjectData.map((Data, i) => {
             return (
@@ -95,7 +98,7 @@ const IndexPage = () => {
             );
           })}
 
-        </div>
+        </div> */}
       </div>
 
       <Footer />

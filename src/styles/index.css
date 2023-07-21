@@ -63,12 +63,10 @@ h6:hover {
 }
 .card-img {
   height: 23rem !important;
-}
-.card-img {
-  border-radius: 1rem 1rem 0rem 0rem !important;
+  border-radius: 1rem  !important;
   border: 3px solid var(--gray-2) !important;
-  border-bottom: none !important;
 }
+
 .p_technolgies {
   background-color: var(--dark);
   padding: 0.5rem !important;
