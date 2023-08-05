@@ -12,7 +12,7 @@ const ProjectCard = ({ ProjectData }) => {
           <div className="card-container w-100 h-100 position-relative  ">
           
           <Card.Img src={data.img} alt="project images card-front position-absolute top-0 "/>
-          <Card.Body className="card-back position-absolute top-0 ">
+          <Card.Body className="card-back position-absolute top-0  overflow-y-scroll ">
             <Card.Title className="text-bold">{data.title}</Card.Title>
             <Card.Title className="text-bold">Tech stack used</Card.Title>
 
