@@ -1,0 +1,1 @@
+{"mappings":"","sources":["next.config.js"],"sourcesContent":["/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n}\n\nmodule.exports = nextConfig\n"],"names":[],"version":3,"file":"next.config.js.map"}

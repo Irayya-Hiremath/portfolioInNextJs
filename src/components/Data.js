@@ -76,7 +76,24 @@ const ProjectData = [
     description: `You can find the some of my hobby projects directly on my github.`,
     title: "Some Of My Hobby projects",
 
-    tech: ["Github"],
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Next js",
+      "GatsBy",
+      "Material UI",
+      "Bootstrap",
+      "Tailwind css",
+      "Headless UI",
+      "Ant D",
+      "Google Maps API",
+      "Socket.io",
+      "Crypto.js",
+      "PWA",
+      'Parcel js'
+    ],
     link:'https://github.com/Irayya-Hiremath'
   },
 ];
