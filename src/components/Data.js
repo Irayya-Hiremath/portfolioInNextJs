@@ -77,9 +77,7 @@ const ProjectData = [
     title: "Some Of My Hobby projects",
 
     tech: [
-      "HTML",
-      "CSS",
-      "JavaScript",
+     
       "React JS",
       "Next js",
       "GatsBy",
@@ -87,7 +85,6 @@ const ProjectData = [
       "Bootstrap",
       "Tailwind css",
       "Headless UI",
-      "Ant D",
       "Google Maps API",
       "Socket.io",
       "Crypto.js",
