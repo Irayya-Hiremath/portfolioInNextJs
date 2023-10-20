@@ -20,7 +20,7 @@ const ProjectData = [
     .Providing a more streamlined user interface. Additionally, I implemented an admin access feature to grant authorized users specific administrative functionalities, enhancing overall control and management of the application.`,
     title: "YellowDays Version-2",
     tech: ["Next js", "Material UI", "Google Maps API",  " React Date Picker","Socket.io"],
-    link:`http:web.staging.yellowdays.com:3000/login`
+    // link:`http:web.staging.yellowdays.com:3000/login`
   }
   ,
   {
@@ -28,7 +28,7 @@ const ProjectData = [
     description: `Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
     title: "College Website",
     tech: ["Gatsby js", "React Bootstrap","AOS"],
-    link:`https://kssscollege.com/`
+    // link:`https://kssscollege.com/`
   },{
     img: "/images/ware.jpg",
     description: `Worked on the client-side aspect of this project and built with modern technologies like React.js and React-Bootstrap and done hybrid application for mobile, using PWA technology with next js. This application manages all the warehouse activiteis and makes warehouse management an easier task.it keeps track of all purchases and sales and its main feature is to keep track of all orders with all details at every step of the order journey.`,
