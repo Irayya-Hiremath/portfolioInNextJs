@@ -1,12 +1,27 @@
 const ProjectData = [
   {
+    img: "/images/antz.png",
+    description: `In the newer version of the application, I utilized
+    Next js, Material UI,
+    and
+    React FullCalendar
+    along with
+    React Date Picker, Google Maps API
+    , and
+    Socket.io
+    .Providing a more streamlined user interface. Additionally, I implemented an admin access feature to grant authorized users specific administrative functionalities, enhancing overall control and management of the application.`,
+    title: "Antz Systems",
+    tech: ["Next js", "Material UI", "Google Maps API",  " React Date Picker","Socket.io","React query"],
+    link:`https://pharmacy.antzsystems.com/login/`
+  },
+  {
     img: "/images/yellowdays1.png",
     description: `I developed the client side of a project using
     Next.js, Tailwind CSS, Headless UI, ReactDate Picker, Google Maps API, and Socket.io
     . The project aimed to create a platform where providers could offer activities for customers to book via a mobile application. Iimplemented features such as booking status tracking and chat functionality toenhance communication between providers and customers.`,
     title: "YellowDays Version-1",
     tech: ["Next js", "Tailwind Css", "Headless UI", "Google Maps API",  " React Date Picker","Socket.io"],
-    link:`https:web.yellowdays.com`
+    // link:`https:web.yellowdays.com`
   },{
     img: "/images/yellowdays2.png",
     description: `In the newer version of the application, I utilized
@@ -28,7 +43,7 @@ const ProjectData = [
     description: `Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
     title: "College Website",
     tech: ["Gatsby js", "React Bootstrap","AOS"],
-    // link:`https://kssscollege.com/`
+    link:`https://kssscollege.com/`
   },{
     img: "/images/ware.jpg",
     description: `Worked on the client-side aspect of this project and built with modern technologies like React.js and React-Bootstrap and done hybrid application for mobile, using PWA technology with next js. This application manages all the warehouse activiteis and makes warehouse management an easier task.it keeps track of all purchases and sales and its main feature is to keep track of all orders with all details at every step of the order journey.`,
