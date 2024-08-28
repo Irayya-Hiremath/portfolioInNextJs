@@ -12,7 +12,7 @@ const ProjectData = [
     .Providing a more streamlined user interface. Additionally, I implemented an admin access feature to grant authorized users specific administrative functionalities, enhancing overall control and management of the application.`,
     title: "Antz Systems",
     tech: ["Next js", "Material UI", "Google Maps API",  " React Date Picker","Socket.io","React query"],
-    link:`https://pharmacy.antzsystems.com/login/`
+    // link:`https://pharmacy.antzsystems.com/login/`
   },
   {
     img: "/images/yellowdays1.png",
